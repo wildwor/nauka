@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+int main()
+{cout<<"Podaj wysokosc krzyza\n";
+int wysokosc;
+cin>>wysokosc;
+	for(int i=0;i<wysokosc;i++)
+	{if(i>=0&&i<wysokosc/2)
+		{
+			for(int j=0;j<wysokosc-1;j++)
+			cout<<" ";cout<<"x";cout<<endl;
+		}
+		else if(i==wysokosc/2)
+		{for(int g=0;g<wysokosc/2;g++)
+		cout<<" ";
+	 		for(int k=0;k<wysokosc;k++)
+		cout<<"x";
+		cout<<endl;
+	}
+	else
+	{
+		for(int o=0;o<wysokosc-1;o++)
+			cout<<" ";cout<<"x";cout<<endl;
+	}
+	}
+	
+}
