@@ -1,0 +1,26 @@
+#include <iostream>
+int main()
+{
+	using namespace std;
+	int l,litera;
+	cout<<"Wprowadz wielkosc litery a podaj liczbe calkowita\n";
+	cin>>litera;
+	for(int i=0;i<litera;i++)
+		{
+			for(int j=0;j<litera-i;j++)
+			cout<<" ";
+			cout<<"a";
+			for(int k=0;k<0+i+i;k++)
+			cout<<" ";
+			cout<<"a";
+			cout<<endl;
+			if(i==litera/2)
+			{for(int m=0;m<litera/2;m++)
+			cout<<" ";
+				for(l=0;l<2*i+2;l++)
+				cout<<"a";
+				cout<<endl;
+			}
+		}
+
+}
